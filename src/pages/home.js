@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import TestimonialSlider from "../components/slider";
 import {
   AboutSvg,
   DownloadSvg,
@@ -30,8 +31,8 @@ export default function Home() {
 
               {/* Text */}
               <p className="fs-lg">
-                We Are A Full Service Lagos Based Digital Marketing Agency With
-                Combined Experience Of Over 15 Years. Get In Touch Today!
+                Power your business to new heights with our result driven
+                digital marketing, web design and creative services platform.
               </p>
 
               {/* Buttons */}
@@ -114,36 +115,18 @@ export default function Home() {
             <div className="col-md-6 col-lg-5 text-center text-md-start">
               {/* Heading */}
               <h2 className="display-4 mb-4">
-                Robo investing is{" "}
-                <span className="text-underline-warning">3.5x</span> as
-                efficient.
+                Social Media{" "}
+                <span className="text-underline-warning">Management</span>
               </h2>
 
               {/* Text */}
               <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna
-                lectus, mattis non accumsan in, tempor dictum neque. In hac
-                habitasse platea dictumst. Lorem ipsum dolor sit amet,
-                consectetur adipiscing.
+                We are fully committed to building you an aesthetically pleasing
+                and engaging Social Media Presence that is guaranteed to drive
+                traffic to your website and grow your business through a
+                combination of tailored strategy, copywriting, social listening,
+                research, reporting and analysis.
               </p>
-
-              {/* Lists */}
-              <div className="row">
-                <div className="col-6">
-                  {/* List */}
-                  <ul className="list-checked list-checked-warning mb-0">
-                    <li>FDIC Insured</li>
-                    <li>100% Encrypted</li>
-                  </ul>
-                </div>
-                <div className="col-6">
-                  {/* List */}
-                  <ul className="list-checked list-checked-warning mb-0">
-                    <li>Loss Harvesting</li>
-                    <li>24/7 Support</li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -250,11 +233,11 @@ export default function Home() {
 
               {/* Heading */}
               <h2 className="display-4 text-dark mb-9 mb-md-10">
-                We build our team and our product on{" "}
+                Here Is How Our Digital Marketing, Web Design &{" "}
                 <span className="text-underline text-underline-primary-dark">
-                  core values
-                </span>
-                .
+                  Creative Services
+                </span>{" "}
+                Helps You.
               </h2>
             </div>
           </div>
@@ -288,13 +271,15 @@ export default function Home() {
                 {/* Body */}
                 <div className="ms-5">
                   {/* Title */}
-                  <p className="fs-lg fw-bold text-dark mb-1">Simplify</p>
+                  <p className="fs-lg fw-bold text-dark mb-1">Web design</p>
 
                   {/* Text */}
                   <p className="fs-sm text-dark-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
+                    Your website is the first interaction people have with your
+                    business, our creative, innovative and effective websites
+                    helps capture your brand, improve your conversion rates, and
+                    maximize your revenue to help grow your business and achieve
+                    your goals.
                   </p>
                 </div>
               </div>
@@ -323,13 +308,16 @@ export default function Home() {
                 {/* Body */}
                 <div className="ms-5">
                   {/* Title */}
-                  <p className="fs-lg fw-bold text-dark mb-1">Seek Diversity</p>
+                  <p className="fs-lg fw-bold text-dark mb-1">
+                    Search Engine Optimization
+                  </p>
 
                   {/* Text */}
                   <p className="fs-sm text-dark-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
+                    Fundamentally, we are SEO scientists, constantly testing
+                    Google’s algorithm to learn more about it, we optimize your
+                    brand for visibility on google and help increase your
+                    revenue with campaign tailored for your business.
                   </p>
                 </div>
               </div>
@@ -363,13 +351,17 @@ export default function Home() {
                 {/* Body */}
                 <div className="ms-5">
                   {/* Title */}
-                  <p className="fs-lg fw-bold text-dark mb-1">Be Accessible</p>
+                  <p className="fs-lg fw-bold text-dark mb-1">
+                    Graphics Design
+                  </p>
 
                   {/* Text */}
                   <p className="fs-sm text-dark-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
+                    Our designs allow you to freely project your ideas and
+                    visually communicate with your target audience by combining
+                    Art and Technology through images, text, and color, to
+                    achieve artistic or decorative effects and transform data
+                    into visual graphics.
                   </p>
                 </div>
               </div>
@@ -497,98 +489,7 @@ export default function Home() {
         </div>
       </section>
       {/* TESTIMONIALS */}
-      <section className="position-relative">
-        <div className="container-lg">
-          <div className="row justify-content-center">
-            <div className="col-md-10 col-xl-8 position-static">
-              {/* Divider */}
-              <hr className="hr-sm bg-warning mx-auto mb-10 mb-md-12" />
-
-              {/* Slider */}
-              <div className="position-static flickity-soft-edges flickity-buttons-responsive">
-                <div className="col-12 px-4">
-                  <blockquote className="text-center mb-0">
-                    {/* Preheading */}
-                    <h6 className="text-uppercase text-warning mb-3 mb-md-5">
-                      Keep it simple
-                    </h6>
-
-                    {/* Heading */}
-                    <h2 className="display-3 mb-5 mb-md-8">
-                      <q>
-                        I would’ve given up{" "}
-                        <span className="text-underline-warning">
-                          years ago
-                        </span>{" "}
-                        if it weren’t for Goodkit.
-                      </q>
-                    </h2>
-
-                    {/* Footer */}
-                    <footer>
-                      {/* Avatar */}
-                      <div className="avatar mb-4">
-                        <img
-                          className="avatar-img rounded-circle"
-                          src="/static/img/avatars/avatar-9.jpg"
-                          alt="..."
-                        />
-                      </div>
-
-                      {/* Heading */}
-                      <h4 className="font-sans-serif mb-0">Danielle Bosch</h4>
-
-                      {/* Position */}
-                      <p className="fs-sm text-muted mt-n1 mb-0">
-                        Instagram Designer
-                      </p>
-                    </footer>
-                  </blockquote>
-                </div>
-                <div className="col-12 px-4">
-                  <blockquote className="text-center mb-0">
-                    {/* Preheading */}
-                    <h6 className="text-uppercase text-warning mb-3 mb-md-5">
-                      Design systems
-                    </h6>
-
-                    {/* Heading */}
-                    <h2 className="display-3 mb-5 mb-md-8">
-                      <q>
-                        I{" "}
-                        <span className="text-underline-warning">
-                          absolutely love
-                        </span>{" "}
-                        the way Goodkit handles systemic design.
-                      </q>
-                    </h2>
-
-                    {/* Footer */}
-                    <footer>
-                      {/* Avatar */}
-                      <div className="avatar mb-4">
-                        <img
-                          className="avatar-img rounded-circle"
-                          src="/static/img/avatars/avatar-6.jpg"
-                          alt="..."
-                        />
-                      </div>
-
-                      {/* Heading */}
-                      <h4 className="font-sans-serif mb-0">Danny Copter</h4>
-
-                      {/* Position */}
-                      <p className="fs-sm text-muted mt-n1 mb-0">
-                        Chase Banker
-                      </p>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <TestimonialSlider />
 
       {/* DOWNLOAD */}
       <section>
@@ -1183,23 +1084,17 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-8 text-center">
               {/* Preheading */}
-              <h6 className="text-uppercase text-primary mb-5">
-                Management fund
-              </h6>
+              <h6 className="text-uppercase text-primary mb-5">Let's talk</h6>
 
               {/* Heading */}
-              <h2 className="display-1 mb-4">Give us a try.</h2>
+              <h2 className="display-1 mb-4">Let's get in touch.</h2>
 
               {/* Text */}
-              <p>
-                We can help you bring your ideas to reality, get in touch with
-                us below. We Can Also Set Up A Physical Meeting With You At
-                Either Our Office Or Your Place Of Business Within Lagos State.
-              </p>
+              <p>We’re interested in taking your business to new heights.</p>
 
               {/* Button */}
               <a className="btn btn-primary lift" href="#!">
-                Get Started
+                Let's talk
               </a>
             </div>
           </div>

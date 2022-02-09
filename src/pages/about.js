@@ -255,16 +255,15 @@ export default function About() {
 
               {/* Preheading */}
               <h6 className="text-uppercase text-primary mb-5">
-                Our Principles
+                Your Dream, Our Mission
               </h6>
 
               {/* Heading */}
               <h2 className="display-4 text-white mb-9 mb-md-10">
-                We build our team and our product on{" "}
+                We Believe In Hard Work And{" "}
                 <span className="text-underline text-underline-primary-light">
-                  core values
+                  Dedication
                 </span>
-                .
               </h2>
             </div>
           </div>
@@ -298,13 +297,15 @@ export default function About() {
                 {/* Body */}
                 <div className="ms-5">
                   {/* Title */}
-                  <p className="fs-lg fw-bold text-white mb-1">Simplify</p>
+                  <p className="fs-lg fw-bold text-white mb-1">
+                    We stop at nothing
+                  </p>
 
                   {/* Text */}
                   <p className="fs-sm text-white-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
+                    We are young, we are fearless and relentless when it comes
+                    to helping brands grow. When it comes to your business, our
+                    creativity knows no bounds.
                   </p>
                 </div>
               </div>
@@ -334,14 +335,15 @@ export default function About() {
                 <div className="ms-5">
                   {/* Title */}
                   <p className="fs-lg fw-bold text-white mb-1">
-                    Seek Diversity
+                    Exceptional Customer Service
                   </p>
 
                   {/* Text */}
                   <p className="fs-sm text-white-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
+                    Our team of professionals are more than your typical account
+                    managers. We are with you throughout and even after the
+                    process attending to all your concerns 24/7. We make your
+                    digital experience memorable!
                   </p>
                 </div>
               </div>
@@ -375,13 +377,18 @@ export default function About() {
                 {/* Body */}
                 <div className="ms-5">
                   {/* Title */}
-                  <p className="fs-lg fw-bold text-white mb-1">Be Accessible</p>
+                  <p className="fs-lg fw-bold text-white mb-1">
+                    {" "}
+                    We Utilize What Works For You
+                  </p>
 
                   {/* Text */}
                   <p className="fs-sm text-white-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
+                    We harness social media advertising, blogging, SEO, website
+                    content management, email marketing, marketing automation,
+                    reporting and analytics in your Business Advantage strategy.
+                    We constantly analyze what’s being effective to continuously
+                    improve your strategy and get more for your marketing spend.
                   </p>
                 </div>
               </div>
@@ -417,13 +424,18 @@ export default function About() {
                 {/* Body */}
                 <div className="ms-5">
                   {/* Title */}
-                  <p className="fs-lg fw-bold text-white mb-1">Think Global</p>
+                  <p className="fs-lg fw-bold text-white mb-1">
+                    Best value for your money
+                  </p>
 
                   {/* Text */}
                   <p className="fs-sm text-white-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
+                    Say goodbye to costly, unpredictable and inconsistent
+                    digital services and lack of returns. We bring your annual
+                    outlook and tactical plans together into integrated
+                    campaigns with weekly summaries, monthly performance
+                    reports, and quarterly reviews. We consistently deliver
+                    excellence to any business or individual we serve.
                   </p>
                 </div>
               </div>
