@@ -1,24 +1,29 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [open, setOpen] = React.useState(false);
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-lg">
           {/* Brand */}
-          <a className="navbar-brand d-lg-none" href="./index.html">
-            Goodkit
-          </a>
+          <Link className="navbar-brand d-lg-none" to="/">
+            <img src="/static/img/logo.png" alt="logo" width="50" />
+          </Link>
 
           {/* Toggler */}
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            onClick={() => {
+              setOpen(true);
+              console.log("shit's been clicked");
+              if (open === true) {
+                console.log("toggle is clicked now");
+              }
+            }}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -31,12 +36,6 @@ export default function Navbar() {
                 <Link to="/about" className="nav-link">
                   About
                 </Link>
-                <div className="dropdown-positioner">
-                  <div
-                    className="dropdown-menu dropdown-menu-xl dropdown-menu-flush"
-                    aria-labelledby="landingsDropdown"
-                  ></div>
-                </div>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -44,8 +43,6 @@ export default function Navbar() {
                   id="pagesDropdown"
                   href="#"
                   role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
                 >
                   Services
                 </a>
@@ -54,56 +51,20 @@ export default function Navbar() {
 
             {/* Brand */}
             <Link className="navbar-brand d-none d-lg-block px-lg-6" to="/">
-              PMPD
+              <img src="/static/img/logo.png" alt="logo" width="50" />
             </Link>
 
             {/* Navigation */}
             <ul className="navbar-nav justify-content-start w-100">
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  id="accountDropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <a className="nav-link" href="#" role="button">
                   Contact us
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  id="docsDropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Docs
+              <li className="nav-item">
+                <a className="nav-link" href="#" role="button">
+                  Testimonials
                 </a>
-              </li>
-              <li className="nav-item d-lg-none">
-                <div className="nav-link">
-                  {/* Text */}
-                  <span>Sans Serif Headers</span>
-
-                  {/* Switch */}
-                  <form className="ms-auto me-n3">
-                    <div className="form-check form-switch mb-0">
-                      <input
-                        className="form-check-input family-switch"
-                        type="checkbox"
-                        id="familySwitchMobile"
-                        onchange="switchFamily(this.checked)"
-                      />
-                      <label
-                        className="form-check-label"
-                        for="familySwitchMobile"
-                      ></label>
-                    </div>
-                  </form>
-                </div>
               </li>
             </ul>
           </div>

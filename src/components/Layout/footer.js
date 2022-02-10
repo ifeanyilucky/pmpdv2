@@ -1,6 +1,36 @@
+import { PriceSvg } from "../svg";
+
 export default function Footer() {
   return (
     <>
+      {/* CTA */}
+      <section className="position-relative py-12 py-md-16 bg-white">
+        {/* Decoration */}
+        <div className="position-absolute bottom-end text-warning">
+          <PriceSvg />
+        </div>
+
+        {/* Content */}
+        <div className="container-lg">
+          <div className="row justify-content-center">
+            <div className="col-md-10 col-lg-8 text-center">
+              {/* Preheading */}
+              <h6 className="text-uppercase text-primary mb-5">Let's talk</h6>
+
+              {/* Heading */}
+              <h2 className="display-1 mb-4">Let's get in touch.</h2>
+
+              {/* Text */}
+              <p>We’re interested in taking your business to new heights.</p>
+
+              {/* Button */}
+              <a className="btn btn-primary lift" href="#!">
+                Let's talk
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer className="footer py-8 pt-md-11 bg-dark border-multicolor">
         <div className="container-lg">
           <div className="row">
