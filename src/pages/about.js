@@ -6,7 +6,7 @@ export default function About() {
           <div className="row justify-content-center">
             <div className="col-12 col-lg-10 text-center">
               {/* Heading */}
-              <h2 className="display-3 mb-10">
+              <h2 className="display-2 mb-10">
                 We are a creative digital{" "}
                 <span className="text-underline text-underline-warning">
                   agency

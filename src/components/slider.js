@@ -29,9 +29,6 @@ export class TestimonialSlider extends Component {
                       <div className="col-12 px-4">
                         <blockquote className="text-center mb-0">
                           {/* Preheading */}
-                          <h6 className="text-uppercase text-warning mb-3 mb-md-5">
-                            Keep it simple
-                          </h6>
 
                           {/* Heading */}
                           <h2 className="display-3 mb-5 mb-md-8">

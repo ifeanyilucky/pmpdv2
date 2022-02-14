@@ -44,6 +44,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/public/static/img/hero-img.jpeg");
+  position: relative;
 }
 
 .header-img-overlay {
@@ -65,4 +66,17 @@
 .ptw {
   background-image: url("/public/static/img/ptw.jpeg");
   height: 500px;
+}
+
+@media (max-width: 768px) {
+  .md-reverse {
+    flex-direction: column-reverse;
+  }
+  .align-center {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
 }

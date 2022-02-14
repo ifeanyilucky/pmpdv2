@@ -8,8 +8,8 @@ export default function Home() {
       <section className="pt-6 pt-md-8 pb-8 pb-md-9 bg-light">
         <div className="header-design" />
         <div className="container-lg">
-          <div className="row align-items-center">
-            <div className="col-md-6">
+          <div className="row align-items-center md-reverse">
+            <div className="col-md-6 align-center">
               {/* Image */}
               <div className="header-img ">
                 <div className="header-img-overlay" />
@@ -29,9 +29,9 @@ export default function Home() {
               </p>
 
               {/* Buttons */}
-              <a className="btn btn-primary-light lift" href="#!">
+              <Link className="btn btn-primary-light lift" to="/contact">
                 Get in touch
-              </a>
+              </Link>
               <Link className="btn btn-white lift ms-3" to="/about">
                 Learn More
               </Link>
@@ -60,16 +60,16 @@ export default function Home() {
               <hr className="hr-sm bg-white-20 mx-auto mb-10 mb-md-12" />
 
               {/* Heading */}
-              <h2 className="display-4 text-dark mb-9 mb-md-10">
+              <h1 className="display-1 text-dark mb-9 mb-md-10">
                 Our{" "}
                 <span className="text-underline text-underline-primary-dark">
-                  creative services
+                  Creative Services
                 </span>{" "}
-              </h2>
+              </h1>
             </div>
           </div>
-          <div className="row align-items-center justify-content-between">
-            <div className="col-md-5">
+          <div className="row md-reverse align-items-center justify-content-between">
+            <div className="col-md-5 align-center">
               {/* Card */}
               <div className="position-relative">
                 {/* Decoration */}
@@ -85,10 +85,10 @@ export default function Home() {
             </div>
             <div className="col-md-6 col-lg-5 text-center text-md-start">
               {/* Heading */}
-              <h2 className="display-4 mb-4">
+              <h3 className="display-4 mb-4">
                 Social Media{" "}
                 <span className="text-underline-warning">Management</span>
-              </h2>
+              </h3>
 
               {/* Text */}
               <p className="text-muted">
@@ -106,7 +106,7 @@ export default function Home() {
       {/* APPLICATIONS AND VISAS ASSISTANCE */}
       <section className="py-10 py-md-12">
         <div className="container-lg">
-          <div className="row align-items-center justify-content-between">
+          <div className="row md-reverse align-items-center justify-content-between">
             <div className="col-md-5 order-md-1">
               {/* Image grid */}
               <div className="img-grid img-grid-1 mb-8 mb-md-0 bg-checkered">
@@ -193,8 +193,8 @@ export default function Home() {
       </section>
       <section className="pt-10 pt-md-12">
         <div className="container-lg">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-md-5">
+          <div className="row md-reverse align-items-center justify-content-between">
+            <div className="col-md-5 align-center">
               {/* Card */}
               <div className="position-relative">
                 {/* Decoration */}
@@ -203,6 +203,7 @@ export default function Home() {
                 </div>
 
                 {/* Card */}
+
                 <div className="header-img ptw">
                   <div className="header-img-overlay" />
                 </div>
@@ -231,17 +232,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-10 py-md-12 bg-light">
+      <section className="my-10 py-5 py-md-5 bg-light" id="services">
         <div className="container-lg">
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-8 text-center">
               {/* Divider */}
               <hr className="hr-sm bg-white-20 mx-auto mb-10 mb-md-12" />
-
-              {/* Preheading */}
-              <h6 className="text-uppercase text-primary mb-5">
-                Our Principles
-              </h6>
 
               {/* Heading */}
               <h2 className="display-4 text-dark mb-9 mb-md-10">
@@ -382,7 +378,7 @@ export default function Home() {
         </div>
       </section>
       {/* TESTIMONIALS */}
-      <TestimonialSlider />
+      <TestimonialSlider id="testimonials" />
     </>
   );
 }

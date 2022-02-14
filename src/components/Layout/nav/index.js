@@ -132,9 +132,9 @@ export default class Navbar extends Component {
               return (
                 <ul className="navbar-nav justify-content-end w-100">
                   <li key={menu.id} className="nav-item">
-                    <Link to={menu.url} className="nav-link text-dark">
+                    <a href={menu.url} className="nav-link text-dark">
                       {menu.text}
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               );
