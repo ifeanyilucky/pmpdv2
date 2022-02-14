@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
 import TestimonialSlider from "../components/slider";
-import {
-  AboutSvg,
-  DownloadSvg,
-  DownloadSvgTwo,
-  PriceSvg,
-  PriceSvgTwo,
-} from "../components/svg";
+import { AboutSvg } from "../components/svg";
 
 export default function Home() {
   return (
