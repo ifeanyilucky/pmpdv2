@@ -36,117 +36,39 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-4">
               {/* Brand */}
-              <h2 className="font-serif text-white mb-1">Goodkit</h2>
+              <h2 className="font-serif text-white mb-1">PMPD</h2>
 
               {/* Text */}
-              <p className="text-white-60">A better way to build.</p>
+              <p className="text-white-60">
+                We are a squad of young, versatile and talented innovators;
+                passionate about attaining the best results for our clients. We
+                combine our insatiable thirst for knowledge with insight gained
+                from research to develop marketing strategies that create value
+                for our customers.
+              </p>
             </div>
             <div className="col-6 col-md">
               {/* Heading */}
               <h6 className="text-uppercase text-white mb-3 mb-md-5">
-                Services
+                Lagos Address
               </h6>
 
               {/* List */}
               <ul className="list-unstyled">
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Help Center
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Press
-                  </a>
-                </li>
-                <li>
-                  <a className="text-white-60" href="#!">
-                    About us
-                  </a>
+                <li className="mb-3 text-white-60">
+                  No 2 Iweke road, Airforce, Ikeja, Lagos
                 </li>
               </ul>
             </div>
             <div className="col-6 col-md">
               {/* Heading */}
-              <h6 className="text-uppercase text-white mb-3 mb-md-5">
-                Products
-              </h6>
+              <h6 className="text-uppercase text-white mb-3 mb-md-5">Benin</h6>
 
               {/* List */}
               <ul className="list-unstyled">
                 <li className="mb-3">
                   <a className="text-white-60" href="#!">
                     Homepage
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Pages
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Legal
-                  </a>
-                </li>
-                <li>
-                  <a className="text-white-60" href="#!">
-                    Terms
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md">
-              {/* Heading */}
-              <h6 className="text-uppercase text-white mb-3 mb-md-5">
-                Services
-              </h6>
-
-              {/* List */}
-              <ul className="list-unstyled">
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Help Center
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Press
-                  </a>
-                </li>
-                <li>
-                  <a className="text-white-60" href="#!">
-                    About us
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-6 col-md">
-              {/* Heading */}
-              <h6 className="text-uppercase text-white mb-3 mb-md-5">
-                Connect
-              </h6>
-
-              {/* List */}
-              <ul className="list-unstyled">
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Help Center
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    Press
-                  </a>
-                </li>
-                <li className="mb-3">
-                  <a className="text-white-60" href="#!">
-                    About us
-                  </a>
-                </li>
-                <li>
-                  <a className="text-white-60" href="#!">
-                    Pages
                   </a>
                 </li>
               </ul>
@@ -162,24 +84,17 @@ export default function Footer() {
             <div className="col-12 col-md">
               {/* List */}
               <ul className="list-inline list-unstyled text-gray-600 small mb-md-0">
-                <li className="list-inline-item">© 2020 GoodThemes</li>
-                <li className="list-inline-item ms-md-8">
-                  <a className="text-reset" href="#!">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li className="list-inline-item ms-md-8">
-                  <a className="text-reset" href="#!">
-                    Terms of Service
-                  </a>
-                </li>
+                <li className="list-inline-item">© 2022 Project Manner PD</li>
               </ul>
             </div>
             <div className="col-12 col-md-auto">
               {/* Social */}
               <ul className="list-inline list-unstyled text-gray-600 mb-0">
                 <li className="list-inline-item">
-                  <a className="icon icon-sm text-reset" href="#!">
+                  <a
+                    className="icon icon-sm text-reset"
+                    href="https://instagram.com/projectmanner_pd"
+                  >
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"

@@ -60,6 +60,20 @@ export default function Home() {
       {/* ABOUT */}
       <section className="pt-10 pt-md-12">
         <div className="container-lg">
+          <div className="row justify-content-center">
+            <div className="col-md-10 col-lg-8 text-center">
+              {/* Divider */}
+              <hr className="hr-sm bg-white-20 mx-auto mb-10 mb-md-12" />
+
+              {/* Heading */}
+              <h2 className="display-4 text-dark mb-9 mb-md-10">
+                Our{" "}
+                <span className="text-underline text-underline-primary-dark">
+                  creative services
+                </span>{" "}
+              </h2>
+            </div>
+          </div>
           <div className="row align-items-center justify-content-between">
             <div className="col-md-5">
               {/* Card */}
@@ -237,9 +251,9 @@ export default function Home() {
 
               {/* Heading */}
               <h2 className="display-4 text-dark mb-9 mb-md-10">
-                Here Is How Our Digital Marketing, Web Design &{" "}
+                Here is how our digital marketing, web design &{" "}
                 <span className="text-underline text-underline-primary-dark">
-                  Creative Services
+                  creative services
                 </span>{" "}
                 Helps You.
               </h2>
@@ -366,125 +380,6 @@ export default function Home() {
                     Art and Technology through images, text, and color, to
                     achieve artistic or decorative effects and transform data
                     into visual graphics.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              {/* Item */}
-              <div className="d-flex mt-8 mt-md-9">
-                {/* Icon */}
-                <div className="icon text-primary-dark">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g fill="none" fill-rule="evenodd">
-                      <path d="M0 0h24v24H0z" />
-                      <path
-                        d="M13 18.945V20h1a2 2 0 012 2H8a2 2 0 012-2h1v-1.055a8.972 8.972 0 01-5.206-2.427l-1.055 1.156a1 1 0 01-1.478-1.348l1.788-1.959a1 1 0 011.515.044 7 7 0 109.557-10.07 1 1 0 111.18-1.615 9.001 9.001 0 01-4.3 16.22z"
-                        fill="#335EEA"
-                      />
-                      <circle
-                        fill="#335EEA"
-                        opacity=".3"
-                        cx="12"
-                        cy="10"
-                        r="6"
-                      />
-                    </g>
-                  </svg>
-                </div>
-
-                {/* Body */}
-                <div className="ms-5">
-                  {/* Title */}
-                  <p className="fs-lg fw-bold text-dark mb-1">Think Global</p>
-
-                  {/* Text */}
-                  <p className="fs-sm text-dark-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              {/* Item */}
-              <div className="d-flex mt-8 mt-md-9">
-                {/* Icon */}
-                <div className="icon text-primary-dark">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g fill="none" fill-rule="evenodd">
-                      <path d="M0 0h24v24H0z" />
-                      <path
-                        d="M10.586 6.343l.707.707a1 1 0 001.414-1.414L12 4.929l1.414-1.414 2.122 2.121a1 1 0 001.414-1.414L14.828 2.1a2 2 0 012.829 0l4.242 4.242a2 2 0 010 2.829L9.172 21.899a2 2 0 01-2.829 0l-4.242-4.242a2 2 0 010-2.829l2.12 2.122a1 1 0 001.415-1.414l-2.121-2.122L4.929 12l.707.707a1 1 0 101.414-1.414l-.707-.707 1.414-1.414 2.122 2.12a1 1 0 001.414-1.413L9.172 7.757l1.414-1.414z"
-                        fill="#335EEA"
-                      />
-                    </g>
-                  </svg>
-                </div>
-
-                {/* Body */}
-                <div className="ms-5">
-                  {/* Title */}
-                  <p className="fs-lg fw-bold text-dark mb-1">Be Rigorous</p>
-
-                  {/* Text */}
-                  <p className="fs-sm text-dark-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              {/* Item */}
-              <div className="d-flex mt-8 mt-md-9">
-                {/* Icon */}
-                <div className="icon text-primary-dark">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g fill="none" fill-rule="evenodd">
-                      <path d="M0 0h24v24H0z" />
-                      <path
-                        d="M16.374 19.939l5.849-8.773A.75.75 0 0021.599 10H17V4.477a.75.75 0 00-1.374-.416l-5.849 8.773A.75.75 0 0010.401 14H15v5.523a.75.75 0 001.374.416z"
-                        fill="#335EEA"
-                      />
-                      <path
-                        d="M4.5 5h5a1.5 1.5 0 010 3h-5a1.5 1.5 0 010-3zm0 12h5a1.5 1.5 0 010 3h-5a1.5 1.5 0 010-3zm-2-6h4a1.5 1.5 0 010 3h-4a1.5 1.5 0 010-3z"
-                        fill="#335EEA"
-                        opacity=".3"
-                      />
-                    </g>
-                  </svg>
-                </div>
-
-                {/* Body */}
-                <div className="ms-5">
-                  {/* Title */}
-                  <p className="fs-lg fw-bold text-dark mb-1">
-                    Experiment Freely
-                  </p>
-
-                  {/* Text */}
-                  <p className="fs-sm text-dark-60 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna lectus, mattis non accumsan in, tempor dictum neque. In
-                    hac habitasse platea dictumst.
                   </p>
                 </div>
               </div>
