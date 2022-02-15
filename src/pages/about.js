@@ -144,7 +144,7 @@ export default function About() {
                   {/* Image */}
                   <img
                     className="img-fluid"
-                    src="/static/img/hero-img.jpeg"
+                    src="/static/img/office-girl.webp"
                     alt="..."
                   />
                 </div>

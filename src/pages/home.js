@@ -18,7 +18,7 @@ export default function Home() {
             <div className="col-md-6 order-md-0 text-center text-md-start">
               {/* Heading */}
               <h1 className="display-3 mb-4">
-                Lets build an amazing website for your brand{" "}
+                Let's build an amazing website for your brand{" "}
                 <span className="text-primary-light">today </span>
               </h1>
 
@@ -262,16 +262,16 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <g fill="none" fill-rule="evenodd">
-                      <path d="M0 0h24v24H0z" />
+                      <path d="M0 0h24v24H0z"></path>
                       <path
-                        d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z"
+                        d="M16.374 19.939l5.849-8.773A.75.75 0 0021.599 10H17V4.477a.75.75 0 00-1.374-.416l-5.849 8.773A.75.75 0 0010.401 14H15v5.523a.75.75 0 001.374.416z"
+                        fill="#335EEA"
+                      ></path>
+                      <path
+                        d="M4.5 5h5a1.5 1.5 0 010 3h-5a1.5 1.5 0 010-3zm0 12h5a1.5 1.5 0 010 3h-5a1.5 1.5 0 010-3zm-2-6h4a1.5 1.5 0 010 3h-4a1.5 1.5 0 010-3z"
                         fill="#335EEA"
                         opacity=".3"
-                      />
-                      <path
-                        d="M10.875 15.75a.946.946 0 01-.67-.287l-1.918-1.917a.926.926 0 010-1.342c.384-.383 1.007-.383 1.342 0l1.246 1.246 3.162-3.162a.926.926 0 011.342 0 .926.926 0 010 1.341l-3.833 3.834a.946.946 0 01-.671.287zM11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z"
-                        fill="#335EEA"
-                      />
+                      ></path>
                     </g>
                   </svg>
                 </div>
@@ -306,7 +306,12 @@ export default function Home() {
                     <g fill="none" fill-rule="evenodd">
                       <path d="M0 0h24v24H0z" />
                       <path
-                        d="M22 15.01l.025-.01v4.586a1 1 0 01-1.707.707L18.025 18H5a3 3 0 01-3-3V6a3 3 0 013-3h14a3 3 0 013 3v9.01zM6.168 10.555C7.678 12.819 9.646 14 12 14c2.354 0 4.322-1.18 5.832-3.445a1 1 0 10-1.664-1.11C15.01 11.181 13.646 12 12 12c-1.646 0-3.01-.82-4.168-2.555a1 1 0 00-1.664 1.11z"
+                        d="M14.293 16.707a1 1 0 011.414-1.414l4 4a1 1 0 01-1.414 1.414l-4-4z"
+                        fill="#335EEA"
+                        opacity=".3"
+                      />
+                      <path
+                        d="M11 16a5 5 0 100-10 5 5 0 000 10zm0 2a7 7 0 110-14 7 7 0 010 14z"
                         fill="#335EEA"
                       />
                     </g>
@@ -344,12 +349,7 @@ export default function Home() {
                     <g fill="none" fill-rule="evenodd">
                       <path d="M0 0h24v24H0z" />
                       <path
-                        d="M14.293 16.707a1 1 0 011.414-1.414l4 4a1 1 0 01-1.414 1.414l-4-4z"
-                        fill="#335EEA"
-                        opacity=".3"
-                      />
-                      <path
-                        d="M11 16a5 5 0 100-10 5 5 0 000 10zm0 2a7 7 0 110-14 7 7 0 010 14z"
+                        d="M22 15.01l.025-.01v4.586a1 1 0 01-1.707.707L18.025 18H5a3 3 0 01-3-3V6a3 3 0 013-3h14a3 3 0 013 3v9.01zM6.168 10.555C7.678 12.819 9.646 14 12 14c2.354 0 4.322-1.18 5.832-3.445a1 1 0 10-1.664-1.11C15.01 11.181 13.646 12 12 12c-1.646 0-3.01-.82-4.168-2.555a1 1 0 00-1.664 1.11z"
                         fill="#335EEA"
                       />
                     </g>

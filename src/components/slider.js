@@ -48,7 +48,7 @@ export class TestimonialSlider extends Component {
                             <div className="avatar mb-4">
                               <img
                                 className="avatar-img rounded-circle"
-                                src="/static/img/avatars/avatar-9.jpg"
+                                src="/static/img/avatars/dr-julius.jpg"
                                 alt="..."
                               />
                             </div>
@@ -87,7 +87,7 @@ export class TestimonialSlider extends Component {
                             <div className="avatar mb-4">
                               <img
                                 className="avatar-img rounded-circle"
-                                src="/static/img/avatars/avatar-6.jpg"
+                                src="/static/img/avatars/mr-chigozie.jpg"
                                 alt="..."
                               />
                             </div>

@@ -1,6 +1,47 @@
 import React from "react";
+import axios from "axios";
 
 const Contact = (e) => {
+  const form = React.useRef();
+  const [error, setError] = React.useState("");
+  const [loading, setLoading] = React.useState(false);
+  const [success, setSuccess] = React.useState("");
+
+  const [contact, setContact] = React.useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(contact);
+    const config = {
+      header: {
+        "Content-Type": "application/json",
+      },
+    };
+    try {
+      setLoading(true);
+      const { data } = await axios.post(
+        "https://pmpd.herokuapp.com/contact",
+        contact,
+        config
+      );
+      console.log(data);
+      setTimeout(() => {
+        setLoading(false);
+
+        setSuccess(data.msg);
+        setError(data);
+      }, 3000);
+      setTimeout(() => {
+        setSuccess("");
+      }, 6000);
+    } catch (error) {
+      console.log(error);
+      setError(true);
+    }
+  };
   return (
     <>
       <section className="pt-6 pt-md-6 pb-10 pb-md-12">
@@ -130,7 +171,13 @@ const Contact = (e) => {
               </div>
 
               {/* Form */}
-              <form name="contact" data-netlify="true" method="POST">
+              <form
+                name="contact"
+                data-netlify="true"
+                method="POST"
+                onSubmit={handleSubmit}
+                ref={form}
+              >
                 <div className="row">
                   <div className="col-md-6">
                     <input type="hidden" name="contact" value="contact" />
@@ -144,7 +191,11 @@ const Contact = (e) => {
                         id="contactName"
                         type="text"
                         name="name"
+                        value={contact.name}
                         placeholder="Your name"
+                        onChange={(e) =>
+                          setContact({ ...contact, name: e.target.value })
+                        }
                       />
                     </div>
                   </div>
@@ -159,9 +210,13 @@ const Contact = (e) => {
                         id="contactEmail"
                         type="email"
                         name="email"
+                        value={contact.email}
                         placeholder="Your email"
                         required
                         aria-autocomplete="both"
+                        onChange={(e) =>
+                          setContact({ ...contact, email: e.target.value })
+                        }
                       />
                     </div>
                   </div>
@@ -177,14 +232,38 @@ const Contact = (e) => {
                         name="message"
                         placeholder="Your message"
                         rows="7"
+                        value={contact.message}
+                        onChange={(e) =>
+                          setContact({ ...contact, message: e.target.value })
+                        }
                       />
                     </div>
                   </div>
                 </div>
-                <button className="btn w-100 btn-primary">
-                  Send a Message
+                <button
+                  className={
+                    loading && !error
+                      ? `btn w-100 btn-primary disabled`
+                      : `btn w-100 btn-primary`
+                  }
+                  type="submit"
+                >
+                  {loading && !error ? (
+                    <div className="d-flex justify-content-center">
+                      <div className="spinner-grow" role="status"></div>
+                    </div>
+                  ) : (
+                    <span>Submit</span>
+                  )}
                 </button>
               </form>
+
+              {/* success */}
+              {success && (
+                <div className="alert alert-success" role="alert">
+                  {success}
+                </div>
+              )}
             </div>
           </div>
         </div>

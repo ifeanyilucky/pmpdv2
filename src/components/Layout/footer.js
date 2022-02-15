@@ -1,4 +1,5 @@
 import { PriceSvg } from "../svg";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -24,9 +25,9 @@ export default function Footer() {
               <p>We’re interested in taking your business to new heights.</p>
 
               {/* Button */}
-              <a className="btn btn-primary lift" href="#!">
+              <Link className="btn btn-primary lift" to="/contact">
                 Let's talk
-              </a>
+              </Link>
             </div>
           </div>
         </div>
